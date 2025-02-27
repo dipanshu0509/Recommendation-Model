@@ -31,7 +31,7 @@ def get_recommendations(user_id, preds_matrix, n=5):
     return recommended_products
 
 # Streamlit UI
-st.title("Product Recommendation System")
+st.title(" Ecomeerce Product Recommendation System")
 st.write("Enter a User ID to get personalized product recommendations.")
 
 user_id = st.text_input("Enter User ID:")
